@@ -15,9 +15,9 @@ public class Main {
                     sumOdd += i;
                 }
             }
-            System.out.println(sumEven);
-            System.out.println(sumOdd);
-            System.out.println(sumEven - sumOdd);
+            System.out.println("The sum of all even numbers between 1 and " + number + " is: " + sumEven);
+            System.out.println("The sum of all odd numbers between 1 and " + number + " is: " + sumOdd);
+            System.out.println("The difference between "+ sumEven + " and " + sumOdd + " is: " + (sumEven - sumOdd));
 
         } else {
             System.out.println("please try again");
